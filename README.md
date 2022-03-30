@@ -1,9 +1,15 @@
 # doorstep
 ReadMe
+ReadMe  on MacOS
 1.	how to run:
-1)	frontend: open terminal in path ‘/doorstep/frontend’, input command “yarn start” to start frontend.It will run at “http://localhost:3000”
-2)	Backend: open another terminal in path ‘/doorstep/backend’, input 
- Command “python3 manager.py runserver”. It will run at http://127.0.0.1:8000/
+1)	frontend: 
+a. preparation: open terminal in path ‘/doorstep/frontend’, input command "npm install" 
+b. input command “npm start” to start frontend.It will run at “http://localhost:3000”
+2)	Backend: 
+a.open another terminal in path ‘/doorstep/backend’, input Command “python3 manage.py runserver”. 
+b.If it shows "No module named 'django', input command "npm install django" to install django.
+c.If there is requirement about activating a virtual environment: "source /path/to/venv/bin/activate"
+d.Input Command “python3 manage.py runserver”.It will run at http://127.0.0.1:8000/
 3)	In frontend page, it will show the functions as following:
 a.	Main page and movers page will show the questions in frontend.
 b.	Display page will show all the data in the database except the disabled ones.
@@ -21,6 +27,3 @@ Experiment={‘_id’: 6239c6f71e19cf7e93e7a441,
 }
 3.	Tech stack: React, React hook, Django, Python, Pymongo, MongoDB atlas.
  
-
- 
-
